@@ -1,6 +1,6 @@
 services:
   minio:
-    image: minio/minio:latest
+    image: quay.io/minio/minio
     container_name: whale_alert
     restart: unless-stopped
     env_file:

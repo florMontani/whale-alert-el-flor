@@ -62,3 +62,6 @@ def save_to_csv(data: Dict[str, List[str]]) -> None:
     whale_alert_df = pd.DataFrame(data)
     whale_alert_df.to_csv(f"data/whales_{datetime.now().strftime('%Y-%m-%d')}.csv", index=False, encoding='utf-8')
     logger.info(f'Datos guardados en {datetime.now().strftime("%Y-%m-%d")}.csv')
+
+
+    # Dataframe: estructura inmutable de datos, de forma tabular. no puedo alterar al objeto, no puedo hacer un append o un sort.
