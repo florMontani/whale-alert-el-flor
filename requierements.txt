@@ -1,0 +1,4 @@
+requests==2.34.2
+beautifulSoup4==4.15.0
+pandas
+boto3==1.43.101
